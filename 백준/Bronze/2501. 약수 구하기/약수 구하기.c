@@ -11,13 +11,13 @@ int main(void)
     for(int i = 1; i <= n; i++)
     {
         if(n % i == 0)
-        {   tmp ++;
+        {   tmp ++;}
             if(tmp == k)
             {
                 printf("%d", i);
                 break;
             }
-        }
+        
     }
     if(tmp < k)
         printf("0\n");
